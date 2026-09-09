@@ -1,7 +1,7 @@
 # MS5837_02BA
 
 Arduino library for the TE Connectivity **MS5837-02BA** barometric pressure and
-temperature sensor (I2C, fixed address `0x76`, 3.3 V). Note this code was written by ClaudeCode-Opus5 on 9/9/2026. Some minor bugs were found and fixed. Tested on a Teensy 4.0.
+temperature sensor (I2C, fixed address `0x76`, 3.3 V). Note this code was written by Claude-Opus-5 on 9/9/2026. Some minor bugs were found and fixed and tested on a Teensy 4.0 using Arduino IDE 2.3.10.
 
 MIT licensed — the full licence text and the revision table are at the top of
 `MS5837_02BA.h`.
