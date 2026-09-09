@@ -1,0 +1,66 @@
+#######################################
+# Syntax coloring for MS5837_02BA
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MS5837_02BA	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+reset	KEYWORD2
+readProm	KEYWORD2
+checkCrc	KEYWORD2
+setResolution	KEYWORD2
+getResolution	KEYWORD2
+getConversionTime	KEYWORD2
+read	KEYWORD2
+startConversion	KEYWORD2
+conversionDone	KEYWORD2
+readAdc	KEYWORD2
+getPressure	KEYWORD2
+getPressurePa	KEYWORD2
+getTemperature	KEYWORD2
+getTemperatureF	KEYWORD2
+getDepth	KEYWORD2
+getAltitude	KEYWORD2
+setFluidDensity	KEYWORD2
+getFluidDensity	KEYWORD2
+getRawPressure	KEYWORD2
+getRawTemperature	KEYWORD2
+getPromWord	KEYWORD2
+getLastError	KEYWORD2
+isConnected	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MS5837_I2C_ADDRESS	LITERAL1
+MS5837_CMD_RESET	LITERAL1
+MS5837_CMD_ADC_READ	LITERAL1
+MS5837_CMD_CONVERT_D1	LITERAL1
+MS5837_CMD_CONVERT_D2	LITERAL1
+MS5837_CMD_PROM_READ	LITERAL1
+MS5837_OSR_256	LITERAL1
+MS5837_OSR_512	LITERAL1
+MS5837_OSR_1024	LITERAL1
+MS5837_OSR_2048	LITERAL1
+MS5837_OSR_4096	LITERAL1
+MS5837_OSR_8192	LITERAL1
+MS5837_OSR_DEFAULT	LITERAL1
+MS5837_PROM_WORDS	LITERAL1
+MS5837_ERROR_NONE	LITERAL1
+MS5837_ERROR_BUS	LITERAL1
+MS5837_ERROR_CRC	LITERAL1
+MS5837_ERROR_RANGE	LITERAL1
+MS5837_ERROR_NOT_READY	LITERAL1
+MS5837_DENSITY_FRESHWATER	LITERAL1
+MS5837_DENSITY_SEAWATER	LITERAL1
+MS5837_GRAVITY	LITERAL1
+MS5837_SEALEVEL_MBAR	LITERAL1
