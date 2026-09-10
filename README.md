@@ -23,7 +23,7 @@ void setup()
 {
   Wire.begin();
   sensor.begin();
-  sensor.setResolution(MS5837_OSR_4096);
+  sensor.setResolution(MS5837_OSR_4096); // optional but lets you chose between accuracy and speed
 }
 
 void loop()
