@@ -82,7 +82,7 @@
    PROM layout: 8 x 16-bit words. Word 0 holds the factory data and the CRC-4,
    words 1..6 are the calibration coefficients, word 7 is unused.
    --------------------------------------------------------------------------- */
-#define MS5837_PROM_WORDS 7
+#define MS5837_PROM_WORDS 8
 
 /* ---------------------------------------------------------------------------
    Error codes returned by getLastError().
