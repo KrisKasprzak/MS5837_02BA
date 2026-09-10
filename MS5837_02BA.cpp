@@ -59,7 +59,7 @@ bool MS5837_02BA::readProm(void)
 {
   promValid = false;
 
-  for (uint8_t wordIndex = 0; wordIndex < MS5837_PROM_WORDS; wordIndex++)
+  for (uint8_t wordIndex = 0; wordIndex < (MS5837_PROM_WORDS - 1); wordIndex++)
   {
     if (!sendCommand(MS5837_CMD_PROM_READ + (wordIndex * 2)))
     {
